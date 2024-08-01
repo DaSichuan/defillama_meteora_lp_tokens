@@ -1,0 +1,20 @@
+{
+  "name": "defillama_meteora_lp_tokens",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:DaSichuan/defillama_meteora_lp_tokens.git",
+  "author": "dasichuan <0xdasichuan@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "@mercurial-finance/dynamic-amm-sdk": "^0.4.29",
+    "@solana/web3.js": "^1.95.2",
+    "decimal.js": "^10.4.3"
+  }
+}
